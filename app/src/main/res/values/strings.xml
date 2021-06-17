@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GameGA</string>
+    <string name="Start">Start</string>
+    <string name="Instructions">Instructions</string>
+    <string name="ReturningPlayer">Returning Player</string>
+    <string name="NewPlayer">New Player</string>
+    <string name="UserName">User Name</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="VerifyPassword">Verify Password</string>
+    <string name="Enter">Enter</string>
+</resources>

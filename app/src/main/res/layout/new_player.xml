@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/anat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="שחקן חדש"
+        android:textSize="50sp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        android:gravity="center"
+        android:textColorHint="@color/green"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:id="@+id/MailInput"
+        android:layout_margin="30dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Password"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/green"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:id="@+id/PasswordInput"
+        android:layout_margin="30dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/VerifyPassword"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColorHint="@color/green"
+        android:inputType="numberPassword"
+        android:textSize="17sp"
+        android:id="@+id/VerifyPasswordInput"
+        android:layout_margin="30dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnterBtn"
+        android:text="@string/Enter"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_background">
+    </Button>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/backBtn"
+        android:src="@drawable/back"
+        android:background="@null"
+        android:scaleType="fitXY">
+    </ImageButton>
+
+</LinearLayout>

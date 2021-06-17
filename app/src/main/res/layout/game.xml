@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType = "centerCrop"
+            android:id="@+id/background"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/background_animation">
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/score_tv"
+            android:layout_width="110dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="Score : "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:id="@+id/heart_one"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/heart"/>
+
+        <ImageView
+            android:id="@+id/heart_two"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="120dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/heart"/>
+
+        <ImageView
+            android:id="@+id/heart_three"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="160dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/heart"/>
+
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="50dp"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/piki"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/piki_animation"/>
+
+            <ImageView
+                android:id="@+id/coin"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/coin_animation"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/bad_in_the_ground">
+            </pl.droidsonroids.gif.GifImageView>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<ImageButton
+    android:layout_width="128dp"
+    android:layout_height="56dp"
+    android:layout_gravity="center"
+    android:id="@+id/StartBtn"
+    android:src="@drawable/shape_selector"
+    android:layout_margin="130dp">
+</ImageButton>
+
+<Button
+    android:layout_width="200dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:textAllCaps="false"
+    android:background="@drawable/btn_background"
+    android:textColor="@color/black"
+    android:id="@+id/InstructionsBtn"
+    android:layout_margin="10dp"
+    android:text="Instructions">
+</Button>
+
+<Button
+    android:layout_width="200dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:textAllCaps="false"
+    android:textColor="@color/black"
+    android:id="@+id/ReturningPlayerBtn"
+    android:background="@drawable/btn_background"
+    android:layout_margin="10dp"
+    android:text="@string/ReturningPlayer">
+</Button>
+
+<Button
+    android:layout_width="200dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:id="@+id/NewPlayerBtn"
+    android:textAllCaps="false"
+    android:textColor="@color/black"
+    android:background="@drawable/btn_background"
+    android:layout_margin="10dp"
+    android:text="@string/NewPlayer">
+</Button>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameGA</string>
+    <string name="Start">התחל</string>
+    <string name="Instructions">הוראות</string>
+    <string name="ReturningPlayer">שחקן חוזר</string>
+    <string name="NewPlayer">שחקן חדש</string>
+    <string name="UserName">שם משתמש</string>
+    <string name="Email">אימייל</string>
+    <string name="Password">סיסמא</string>
+    <string name="VerifyPassword">אימות סיסמא</string>
+    <string name="Enter">כניסה</string>
+</resources>
