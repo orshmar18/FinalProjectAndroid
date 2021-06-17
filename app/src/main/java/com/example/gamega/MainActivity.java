@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_splash);
 
 //אינטנט נוסף שמופיע לשלוש שניות
+        int x;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
